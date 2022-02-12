@@ -43,9 +43,6 @@ contract Mint4TheMetaverse is ERC721, ERC721Enumerable, Ownable, ContextMixin {
     uint256 public maxSupply = 100000;
     bool public mintingEnabled;
     uint256 public buyLimit = 20;
-    uint64 price1 = 0.00001 ether;
-    uint64 price2 = 0.00002 ether;
-    uint64 price3 = 0.00003 ether;
 
 
     struct Pixel {
